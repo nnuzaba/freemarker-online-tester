@@ -45,7 +45,7 @@ server:
 #        logFormat:
   applicationConnectors:    
       - type: http
-        port: 8080
+        port: 9000
 #      # FOR PRODUCTION:
 #        # Note: port < 1024 needs authbind on Linux
 #        port: 80

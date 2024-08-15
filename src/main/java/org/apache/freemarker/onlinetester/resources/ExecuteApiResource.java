@@ -55,9 +55,9 @@ import freemarker.template.utility.StringUtil;
  */
 @Path("/api/execute")
 public class ExecuteApiResource {
-    private static final int MAX_TEMPLATE_INPUT_LENGTH = 10000;
+    private static final int MAX_TEMPLATE_INPUT_LENGTH = 1000000;
 
-    private static final int MAX_DATA_MODEL_INPUT_LENGTH = 10000;
+    private static final int MAX_DATA_MODEL_INPUT_LENGTH = 1000000;
 
     private static final String MAX_TEMPLATE_INPUT_LENGTH_EXCEEDED_ERROR_MESSAGE
             = "The template length has exceeded the {0} character limit set for this service.";
